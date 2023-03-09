@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <script>
+		let status = document.readyState
+
+		let i = 0;
+		
+		while (i < 12) {
+		alert("Статус документа: "+status);
+		i++;
+		}
+
+		
+		function removeElement(){
+			var change = document.querySelector('#first');
+            change.parentNode.removeChild(change);    
+
+
+		}
+		
+		
+		function setStyle(){
+			var change = document.querySelector('#first');
+			change.style.color="red";
+			change.style.backgroundColor = "grey";
+			change.style.fontWeight = "bold";
+			change.style.fontSize = "20px";
+			change.style.border = "1px solid green";
+		
+		}
+
+	</script>
+
+
+	<script>
+		
+		function ValidName(){
+		let check = document.querySelector('#entername');
+		if (check.value.length !=0){
+			return true
+		}
+		else{
+			return false;
+		}
+		}
+		
+		
+		function ValidPlace(){
+		let check = document.querySelector('#birthplace');
+		if (check.value.length !=0){
+			return true
+		}
+		else{
+			return false;
+		}
+		}
+
+
+		function ValidMail(){
+		
+		var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+		
+		let check = document.querySelector('#mail');
+		if (reg.test(check.value)){
+			return true
+		}
+		else{
+			return false;
+		}
+		}
+
+
+		function Validate(){
+			if(ValidMail() && ValidName() && ValidPlace()){
+			alert("отправлено");
+			}
+			else{
+			alert("ошибка");
+			}
+		
+		
+		}
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+<p  onClick="removeElement()" id="first">Николаев Арсений Антонович</p>
+<a href="www.tesla.com">Ссылка на любимый сайт</a>
+
+<img src="1.jpg" style="width: 100px;">
+
+
+<form>
+<h2>Пользовательская форма</h2>
+
+<p>Имя</p><input type="text" placeholder="Введите имя" id="entername"></br>
+<p>Место рождения</p><input type="text" placeholder="Введите место рождения" id="birthplace"></br>
+<p>Адрес электронной почты</p><input type="mail" placeholder="Введите адрес электронной почты" id="mail"></br>
+<input type="button" value="Отправить" onClick="Validate()"></br>
+
+
+<input type="button" onClick="setStyle()" value="изменить стиль">
+
+</form>
+
+
+
+
+</body>
+
+</html>

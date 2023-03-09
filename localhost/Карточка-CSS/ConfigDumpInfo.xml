@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+	<ConfigVersions>
+		<Metadata name="Catalog.ПоставкиТелефонов" id="8b14b182-63d5-4231-af12-4fa002015c46" configVersion="2c6558d9024182468cd38115187c571000000000">
+			<Metadata name="Catalog.ПоставкиТелефонов.Attribute.Количество" id="03cc1585-d15b-4483-a81e-277279e2795c"/>
+			<Metadata name="Catalog.ПоставкиТелефонов.TabularSection.ТабличнаяЧасть1" id="169b1075-45ef-4d86-9332-1c594baf7f50"/>
+			<Metadata name="Catalog.ПоставкиТелефонов.Attribute.ИмяПоставщика" id="3d2a8b64-8707-4467-91bb-5f275efb7c50"/>
+			<Metadata name="Catalog.ПоставкиТелефонов.TabularSection.ТабличнаяЧасть1.Attribute.Количество" id="6909949c-5aba-45f6-a1b0-8acf2a0a2fef"/>
+			<Metadata name="Catalog.ПоставкиТелефонов.TabularSection.ТабличнаяЧасть1.Attribute.НазваниеТелефона" id="6f9ea10f-42a8-45e0-8f91-3b80fc13ddfd"/>
+			<Metadata name="Catalog.ПоставкиТелефонов.Attribute.ДатаПоставки" id="bef9dbe8-9cfe-4d84-98a4-93e88bba2950"/>
+			<Metadata name="Catalog.ПоставкиТелефонов.Attribute.НазваниеТелефона" id="bff7b4ae-832f-4a97-aaf5-f53a771763ad"/>
+			<Metadata name="Catalog.ПоставкиТелефонов.TabularSection.ТабличнаяЧасть1.Attribute.ДатаПОставки" id="c21b66ec-c7ea-4c51-a10f-f3aaf04c07f7"/>
+			<Metadata name="Catalog.ПоставкиТелефонов.TabularSection.ТабличнаяЧасть1.Attribute.ИмяПоставщика" id="e4fb3be5-0f97-41e0-bc56-e39476d5617e"/>
+		</Metadata>
+		<Metadata name="Catalog.Поставщики" id="55b2d9cf-0b89-4ae0-9a38-b5c85c5edae7" configVersion="39d4207b830ca848a1817b788844dbe500000000">
+			<Metadata name="Catalog.Поставщики.Attribute.КонтактныйТелефон" id="889cbae6-1822-4e52-bb8c-65f777d6c074"/>
+			<Metadata name="Catalog.Поставщики.Attribute.Название" id="cb520a37-2c0c-4620-93cf-c6c063d36ad8"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="b906841f-25bc-4bd6-a24a-764277e8ef5e" configVersion="b952ccb874b803488d88d94b284344bb00000000"/>
+		<Metadata name="Constant.НазваниеОрганизации" id="0f1368ef-7a5a-4d57-bd6f-d572cb033cb3" configVersion="b21c8eb74958574ebb1bea7bfae6b86500000000"/>
+		<Metadata name="Language.Русский" id="38a42f43-00b8-4368-83f6-b9514cc5dedb" configVersion="319ed6dd656a924eac759315c73403b100000000"/>
+		<Metadata name="Subsystem.Поставка" id="ecb8a2d1-d466-4f7e-ae94-5b9ebadb2c29" configVersion="c2d29587dea8fe47af311cf1e968abdf00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

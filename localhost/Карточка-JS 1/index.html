@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+	<title>Тег SCRIPT</title>
+	<script>
+	function data(){
+	var hours = new Date().getHours();
+	var seconds = new Date().getSeconds();
+	alert(seconds+'-'+hours);
+	}
+</script>
+</head>
+
+
+<body>
+	<button onClick="data()">Показать время</button>
+
+<script>
+		function Name(){
+		let i = 0;
+		while (i < 12) {
+		alert('Николаев Арсений Антонович');
+		i++;
+		}
+		}
+</script>
+
+<button onClick="Name()">Моё имя</button><br>
+
+<script>
+	function mas(){
+		let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+		alert(numbers);
+		numbers.push(9);
+		alert(numbers);
+	}
+	
+	function strings(){
+		var S1 = "Я люблю Беларусь";
+		var S2 = "Я уччусь в политехническом колледже";
+	
+		alert("Длина строки S1:"+S1.length);
+	    
+		if(S1.indexOf("Беларусь") != -1){
+		alert("В строке S2 содержится слово Беларусь");
+		}
+		var n=12;
+		alert(n+"-й символ в строке: "+S2[n]+".ASCII-код:"+S2.charCodeAt(n));
+	
+	}
+	
+</script>
+
+
+<button onClick="mas()">Работа с массивами</button>
+
+<button onClick="strings()">Работа со строками</button>
+
+<button onClick="returnFun()">Работа с функциями</button>
+
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>

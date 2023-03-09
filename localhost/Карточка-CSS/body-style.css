@@ -1,0 +1,6 @@
+body{/*стиль для тега body*/
+	background-image: url(background.jpg);/*добавление фоновой картинки*/	
+	background-repeat: repeat;/*добавление повторения картинки по вертикали и горизонтали*/	
+	font: Times New Roman 16pt black;/*указание шрифта*/
+	
+}
