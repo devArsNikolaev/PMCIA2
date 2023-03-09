@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(235, 235, 235);
+    margin: auto;
+    padding: auto;
+}
+
+.wrapper{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 80%;
+    padding: 2em;
+}
+
+.item{
+    margin: 2%;
+    width: 18%;
+    padding: 1%;
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
